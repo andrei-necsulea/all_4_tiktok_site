@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>All about TikTok</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
+.w3-bar,h1,button {font-family: "Montserrat", sans-serif}
+.fa-anchor,.fa-coffee {font-size:200px}
+
+@media only screen and (min-width: 600px){
+header{
+  background : url("https://all4tiktok.w3spaces.com/tik.jpg");
+  background-size: cover;
+  width : 100% ;
+  height : 800px; 
+  opacity : 80% ;
+}
+}
+
+@media only screen and (max-width : 600px){
+
+   header{
+  background : url("https://all4tiktok.w3spaces.com/phone_1.jpg");
+  
+  height: 100% ;
+  width : 100% ;
+  opacity : 70% ;
+  background-size: cover;
+
+
+      
+}
+
+}
+
+</style>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-black w3-card w3-left-align w3-large">
+    <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large " href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="https://all4tiktok.w3spaces.com" class="w3-bar-item w3-button w3-padding-large w3-white">Home</a>
+    <a href="https://all4tiktok.w3spaces.com/info.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Info</a>
+    <a href="https://all4tiktok.w3spaces.com/arguments.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Argumente Pro vs Contra TikTok</a>
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
+    <a href="https://all4tiktok.w3spaces.com/info.html" class="w3-bar-item w3-button w3-padding-large">Info</a>
+    <a href="https://all4tiktok.w3spaces.com/arguments.html" class="w3-bar-item w3-button w3-padding-large">Argumente Pro vs Contra TikTok</a>
+  </div>
+</div>
+
+<!-- Header -->
+<header class="w3-container w3-black w3-center" style="padding:128px 16px">
+  
+  <h2 class="w3-margin w3-text-teal w3-jumbo w3-center">Fenomenul TikTok</h2>
+  <p class="w3-xlarge w3-text-teal w3-center">Tot ce trebuie sa stii despre TikTok</p>
+  <!--<button class="w3-button w3-black w3-padding-large w3-large w3-margin-top">Get Started</button>-->
+</header>
+
+<!-- First Grid -->
+<div class="w3-row-padding w3-padding-64 w3-container">
+  <div class="w3-content">
+    <div class="w3-twothird">
+      <h1>Ce este TikTok ?</h1>
+      <h5 class="w3-padding-32">TikTok este platforma de muzică și video denumită o “comunitate video internațională”, care îți permite să faci filmulețe video de 15 secunde cu o melodie ori un efect pe fundal. </h5>
+
+<h1>Ce poti vedea pe TikTok ?</h1>
+
+<h5 class = "w3-padding-32">Aplicația TikTok este, în primul rând, o aplicație care se bazează pe un conținut muzical. Toate clipurile încărcate pe TikTok sunt formate dintr-o combinație de dans și mimă pe piese deja foarte cunoscute, dar și sketch-uri (schițe) sau dansuri făcute special pentru a capta atenția publicului.
+</h5>
+
+    </div>
+
+    
+  </div>
+</div>
+
+<!-- Second Grid -->
+
+    
+  </div>
+</div>
+
+<div class="w3-container w3-black w3-center w3-padding-64">
+    <h1 class="w3-margin w3-xlarge">Quote of the day : live life</h1>
+</div>
+
+
+<script>
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+</script>
+
+</body>
+</html>
